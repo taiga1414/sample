@@ -26,4 +26,27 @@ body {
   font-weight: bold;
 }
 
+h3 {
+  text-align: center;
+}
+/* wrapper */ 
+.wrapper {
+  height: 500px;
+  background-color: antiquewhite;
+}
+
+.wrapper table {
+  float: left;
+  width: 400px;
+  text-align: center;
+  height: 250px;
+}
+
+.ooo table td {
+  border: solid 1px;
+}
+/* フッター */
+
+
+
 
