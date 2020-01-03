@@ -5,6 +5,7 @@ header {
 /* メイン */
 body {
   background-color: aliceblue;
+  margin: 0;
 }
 
 .gallery {
@@ -29,23 +30,32 @@ body {
 h3 {
   text-align: center;
 }
-/* wrapper */ 
-.wrapper {
+/* フッター */
+.footer_nav {
   height: 500px;
-  background-color: antiquewhite;
+  background-color: cornsilk;
 }
 
-.wrapper table {
+.footer_nav table {
   float: left;
-  width: 400px;
+  width: 410px;
   text-align: center;
   height: 250px;
 }
 
-.ooo table td {
+.rrr table td {
   border: solid 1px;
+  background-color: lightcyan;
 }
-/* フッター */
+
+table {
+  border-collapse: collapse;
+}
+
+.hhh table {
+  float: none;
+  margin: auto;
+}
 
 
 
